@@ -5,5 +5,11 @@ export const Route = createFileRoute('/')({
 });
 
 function HomePage() {
-  return <div className="min-h-screen bg-white" />;
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-white">
+      <h1 className="text-5xl font-semibold tracking-tight text-neutral-900 sm:text-6xl">
+        Hello World
+      </h1>
+    </div>
+  );
 }
